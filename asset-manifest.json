@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/eko/static/css/main.92094989.css",
+    "main.js": "/eko/static/js/main.5b2d6efd.js",
+    "static/media/MinionPro-Medium.otf": "/eko/static/media/MinionPro-Medium.ed9f6c2cfa23397ce7b7.otf",
+    "static/media/test.png": "/eko/static/media/test.614a8f32d749041de8c1.png",
+    "static/media/Manrope-Medium.ttf": "/eko/static/media/Manrope-Medium.e08eda3003b96222039b.ttf",
+    "static/media/present2.png": "/eko/static/media/present2.9d27da800864bca08a64.png",
+    "static/media/Manrope-SemiBold.ttf": "/eko/static/media/Manrope-SemiBold.33d2f89e0616126658af.ttf",
+    "static/media/doctor.png": "/eko/static/media/doctor.99236ae0472df9b78cd3.png",
+    "static/media/bacterium.png": "/eko/static/media/bacterium.c992ec44442de9b09892.png",
+    "static/media/Manrope-Bold.ttf": "/eko/static/media/Manrope-Bold.dec8a440784695da86fe.ttf",
+    "static/media/nipple.png": "/eko/static/media/nipple.7cf7597d06862542e579.png",
+    "static/media/bacterium2.png": "/eko/static/media/bacterium2.c273b985d29029b36286.png",
+    "static/media/thermometer.png": "/eko/static/media/thermometer.46d18543beeb4c0c6fc6.png",
+    "static/media/present1.png": "/eko/static/media/present1.fffef20730051063b0dc.png",
+    "static/media/vkontakte.svg": "/eko/static/media/vkontakte.894c02c4afe2a265190b320f46e35ac2.svg",
+    "static/media/instagram.svg": "/eko/static/media/instagram.9130cacd49e8c1ba101ab9f817a1d544.svg",
+    "static/media/facebook.svg": "/eko/static/media/facebook.d05aff85ab08b180d057fe240e10fdb0.svg",
+    "static/media/corner.svg": "/eko/static/media/corner.d8472522d81100977462a38db0514e96.svg",
+    "static/media/youtube.svg": "/eko/static/media/youtube.d9fc7655c11da0625e16e11068de9260.svg",
+    "static/media/arrow.svg": "/eko/static/media/arrow.255b695ba85d37785284883835d44dd4.svg",
+    "index.html": "/eko/index.html",
+    "static/media/point.svg": "/eko/static/media/point.801dbafdb90866577d1567054934b52a.svg",
+    "main.92094989.css.map": "/eko/static/css/main.92094989.css.map",
+    "main.5b2d6efd.js.map": "/eko/static/js/main.5b2d6efd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92094989.css",
+    "static/js/main.5b2d6efd.js"
+  ]
+}
