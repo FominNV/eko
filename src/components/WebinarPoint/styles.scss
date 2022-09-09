@@ -1,0 +1,16 @@
+@import "styles/sass/main";
+
+.WebinarPoint {
+  position: relative;
+  width: 315px;
+  padding-left: 24px;
+  padding-top: 2px;
+  font: 400 15px/23px $manrope-medium;
+  letter-spacing: 0px;
+
+  &__point-wrap {
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+}
