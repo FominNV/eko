@@ -1,0 +1,109 @@
+@import "styles/sass/main";
+
+.Carousel {
+  width: 100%;
+  max-width: 1440px;
+  height: 369px;
+
+  @media (max-width: $sm), (max-device-width: $sm) {
+    height: initial;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__button-arrow {
+    @include btn-reset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 100%;
+    transition: all 0.25s;
+    z-index: 10;
+    overflow: hidden;
+
+    @media (max-width: $sm), (max-device-width: $sm) {
+      display: none;
+    }
+
+    &:hover {
+      background-color: rgba(#000000, 0.05);
+      padding-left: 5px;
+    }
+
+    &:active {
+      padding-left: 10px;
+    }
+
+    &_left {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__wrap {
+    position: relative;
+    display: flex;
+    column-gap: 100px;
+    justify-content: center;
+    width: calc(100% - 52px);
+
+    @media (max-width: $xl), (max-device-width: $xl) {
+      column-gap: 50px;
+    }
+    @media (max-width: $md), (max-device-width: $md) {
+      justify-content: start;
+      width: 218px;
+      margin: 0 auto;
+      column-gap: 400px;
+    }
+  }
+
+    &__image-corner {
+    position: absolute;
+    display: none;
+    z-index: 10;
+
+    @media (max-width: $sm), (max-device-width: $sm) {
+      display: block;
+    }
+
+    &_top-right {
+      top: 36px;
+      right: -19px;
+    }
+
+    &_bottom-left {
+      top: 189px;
+      left: -19px;
+      transform: rotate(180deg);
+    }
+  }
+
+  &__button-points {
+    display: none;
+    column-gap: 8px;
+    width: fit-content;
+    margin: 10px auto 0;
+
+    @media (max-width: $sm), (max-device-width: $sm) {
+      display: flex;
+    }
+  }
+
+  &__button-point {
+    @include btn-reset;
+    width: 10px;
+    height: 10px;
+    background: rgba(90, 92, 97, 0.15);
+    border-radius: 50%;
+
+    &_active {
+      background: rgba(90, 92, 97, 0.4);
+    }
+  }
+}

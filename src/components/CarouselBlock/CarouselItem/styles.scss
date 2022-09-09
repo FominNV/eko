@@ -1,0 +1,31 @@
+@import "styles/sass/main";
+
+.CarouselItem {
+  width: 100%;
+  max-width: 220px;
+
+  &__image {
+    width: 100%;
+
+    @media (max-width: $md), (max-device-width: $md) {
+      width: 218px;
+      height: 255px;
+    }
+  }
+
+  &__name {
+    margin-top: 28px;
+    font: 400 19px/26px $manrope-bold;
+    color: $black-gray;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  &__speciality {
+    margin-top: 6px;
+    font: 400 15px/26px $manrope-medium;
+    color: $black-gray;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
